@@ -1,0 +1,77 @@
+/*
+Theme Name: Voice Blog Lite
+Theme URI: https://www.postmagthemes.com/downloads/voice-blog-lite-a-free-wordpress-theme/
+Author: www.postmagthemes.com
+Author URI: https://www.postmagthemes.com/
+Description: Voice blog lite is a free WordPress theme. It has a clean design and smooth presentation. People who loves simple yet attractive way of presenting their articles will choose voice blog lite theme. Immediately full page header image attracts viewers to your site hence it is the most important and first impression of your thought. There are related stories for each of your article. It shows the connection between your article via common category. Voice blog lite WordPress theme can be shared by more than one author. It has a capability of showing article between authors. You can view demo here: https://www.postmagthemes.com/demovoicebloglite
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: voice-blog-lite
+Template: voice-blog
+Tags: two-columns, grid-layout, footer-widgets, translation-ready, blog, news, right-sidebar, left-sidebar, custom-header, custom-background, custom-logo, custom-menu, custom-colors, threaded-comments, featured-images, theme-options, full-width-template
+
+Voice Blog Lite, Copyright 2018 Postmagthemes https://www.postmagthemes.com
+Voice Blog Lite is distributed under the terms of GNU GPL v2 or later.
+
+Voice blog is derived from Underscores https://underscores.me/, (C) 2013 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+img.card-img-top {
+ border-radius: 15px;
+}
+
+h2.section-title {
+ letter-spacing: 5px;
+ font-family: Muli;	
+}
+.navbar-nav li.nav-item a.nav-link {
+	padding: 15px 30px;
+	letter-spacing: 3px;
+}
+.middle-content .list-blog .row div[class*=col-]:nth-child(even) .media .media-body{
+	text-align: right;
+}
+
+.thumb-blog {
+	margin-top: 40px;
+}
+
+@media (max-width: 767px){
+	.related-posts img {
+		max-width: 50% !important;
+		margin: auto !important;
+	}
+	h2.section-title {
+		font-size: 25px !important;
+		letter-spacing: 1px !important;
+	}
+	.middle-content .list-blog .media .media-body{
+		text-align: left !important;
+	}
+}
+/* this for banner post title font size customizer */
+.banner-post-title {
+	font-size: 20px;
+	color: white;
+}
+.blog-post-title {
+	padding-bottom: 20px;
+}
+.sidebar .side-title h4,
+.author .title-holder h2,
+.related-posts .title-holder h2,
+.comments .title-holder h2,
+.inner-content .comment-respond h3,
+.other-title h4,
+.sidebar th {
+	font-size: 18px;
+}
+.related-posts {
+	 border-bottom: 1px solid #ebebeb;
+	 padding-bottom: 30px;
+}

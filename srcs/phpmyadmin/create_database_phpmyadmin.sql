@@ -1,0 +1,4 @@
+CREATE DATABASE phpmyadmin;
+GRANT SELECT, INSERT, UPDATE, DELETE ON phpmyadmin.* TO 'pma'@'localhost' IDENTIFIED BY 'Xibaochat!';
+GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' IDENTIFIED BY 'Xibaochat!' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
