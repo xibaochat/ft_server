@@ -19,6 +19,10 @@ RUN	mkdir /etc/nginx/ssl && \
 	-out /etc/nginx/ssl/nginx.crt < /root/cert_infos.txt
 RUN rm -f /root/cert_infos.txt
 
+# Server Index
+COPY ./srcs/nginx/index.conf /etc/nginx/sites-available/index.conf
+RUN ln -s /etc/nginx/sites-available/index.conf  /etc/nginx/sites-enabled/
+
 
 #######
 # MySQL
@@ -67,6 +71,9 @@ COPY ./srcs/nginx/phpmyadmin.conf /etc/nginx/sites-available/phpmyadmin.conf
 RUN ln -s /etc/nginx/sites-available/phpmyadmin.conf  /etc/nginx/sites-enabled/
 
 ### DOCKER RUN
+EXPOSE 80 443 81 444
+
+
 CMD /etc/init.d/nginx start && \
 	/etc/init.d/mysql start && \
 	/etc/init.d/php7.3-fpm start && \
