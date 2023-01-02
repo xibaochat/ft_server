@@ -21,7 +21,7 @@
 
 | interest                     | number of team          | difficulty                      |
 | ---------------------------- | ----------              | ----------                      |
-|    :star::star::star::star:: | :cat: |  :star::star::star: |
+|    :star::star::star::star: | :cat: |  :star::star::star: |
 
 </td>
 </tr>
