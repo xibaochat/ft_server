@@ -27,8 +27,10 @@
 </tr>
 </table>
 
+<div align="center">
+<img src=https://github.com/xibaochat/ft_server/blob/master/ft_server.gif>
+</div>
 
-![index](https://github.com/xibaochat/ft_server/blob/master/index.png)
 
 ## Subject
 [en.subject.pdf](https://github.com/xibaochat/ft_server/blob/master/en.subject.pdf)
